@@ -1,0 +1,80 @@
+body {
+    background-color: lightslategray;
+}
+
+.selection {
+    display: flex;
+    justify-content: center;
+}
+
+.selection {
+    background: rgb(173, 173, 202);
+    border: none;
+    outline: auto;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: 100ms;
+    margin: 0 12rem;
+    padding: 1rem;
+
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.results {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.btn {
+    width: 80px;
+    height: 80px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.result-score {
+    margin-left: .1rem;
+    font-size: .4rem;
+    color: black;
+    font-size: 28px;
+    padding-top: 4rem;
+}
+
+.scores {
+    font-size: 30px;
+    color: tomato;
+}
+
+.result-selection.winner {
+    opacity: 1;
+    font-size: 1rem;
+}
+
+
+.player {
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.computer {
+    background: greenyellow;
+    width: 400px;
+    height: 400px;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 2rem;
+}
